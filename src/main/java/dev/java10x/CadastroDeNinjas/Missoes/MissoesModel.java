@@ -19,7 +19,7 @@ public class MissoesModel {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    private String missao;
+    private String nome;
 
     private String dificuldade;
 
